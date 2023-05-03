@@ -17,7 +17,9 @@ When we access a website, your browser will need to make requests to a web serve
 
 If you’ve used the internet, you’ve used a URL before. A URL is predominantly an instruction on how to access a resource on the internet. The below image shows what a URL looks like with all of its features (it does not use all features in every request).
 
-![[Pasted image 20230503121044.png]]
+
+![image](https://user-images.githubusercontent.com/94045496/235850281-fbf470b2-d5c2-4625-b496-515cf5d891d8.png)
+
 
 **Scheme:** This instructs on what protocol to use for accessing the resource such as HTTP, HTTPS, FTP (File Transfer Protocol).  
 
@@ -36,6 +38,8 @@ If you’ve used the internet, you’ve used a URL before. A URL is predominantl
 **Making a Request**
 
 ![[Pasted image 20230503121135.png]]
+![image](https://user-images.githubusercontent.com/94045496/235850583-f4152a53-a1c8-4244-85b8-14a595bf131d.png)
+
 
 But for a much richer web experience, you’ll need to send other data as well. This other data is sent in what is called headers, where headers contain extra information to give to the web server you’re communicating with, but we’ll go more into this in the Header task.
 
