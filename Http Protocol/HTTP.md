@@ -90,7 +90,7 @@ To breakdown each line of the response:
 
 -------
 
-HTTP Methods
+## HTTP Methods
 
 HTTP methods are a way for the client to show their intended action when making an HTTP request. There are a lot of HTTP methods but we'll cover the most common ones, although mostly you'll deal with the GET and POST method.
 
@@ -187,7 +187,7 @@ This server cannot handle your request as it's either overloaded or down for mai
 Click the "View Site" button on the right to see what some of these HTTP status messages look like in a browser.
 
 ------
-#  Headers
+##   Headers
 Headers are additional bits of data you can send to the web server when making requests.
 
 Although no headers are strictly required when making a HTTP request, you’ll find it difficult to view a website properly.
@@ -224,7 +224,7 @@ These are the headers that are returned to the client from the server after a re
 
 ------
 
-Cookie
+## Cookie
 
 You've probably heard of cookies before, they're just a small piece of data that is stored on your computer. Cookies are saved when you receive a "Set-Cookie" header from a web server. Then every further request you make, you'll send the cookie data back to the web server. Because HTTP is stateless (doesn't keep track of your previous requests), cookies can be used to remind the web server who you are, some personal settings for the website or whether you've been to the website before. Let's take a look at this as an example HTTP request:
 ![image](https://user-images.githubusercontent.com/94045496/235850965-55eca192-4801-4a2f-9a45-207ee2f32402.png)
