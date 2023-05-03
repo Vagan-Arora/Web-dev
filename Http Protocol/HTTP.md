@@ -37,7 +37,7 @@ If you’ve used the internet, you’ve used a URL before. A URL is predominantl
 
 **Making a Request**
 
-![[Pasted image 20230503121135.png]]
+
 ![image](https://user-images.githubusercontent.com/94045496/235850583-f4152a53-a1c8-4244-85b8-14a595bf131d.png)
 
 
@@ -227,7 +227,8 @@ These are the headers that are returned to the client from the server after a re
 Cookie
 
 You've probably heard of cookies before, they're just a small piece of data that is stored on your computer. Cookies are saved when you receive a "Set-Cookie" header from a web server. Then every further request you make, you'll send the cookie data back to the web server. Because HTTP is stateless (doesn't keep track of your previous requests), cookies can be used to remind the web server who you are, some personal settings for the website or whether you've been to the website before. Let's take a look at this as an example HTTP request:
-![[Pasted image 20230503121552.png]]
+![image](https://user-images.githubusercontent.com/94045496/235850965-55eca192-4801-4a2f-9a45-207ee2f32402.png)
+
 
 Cookies can be used for many purposes but are most commonly used for website authentication. The cookie value won't usually be a clear-text string where you can see the password, but a token (unique secret code that isn't easily humanly guessable).
 
